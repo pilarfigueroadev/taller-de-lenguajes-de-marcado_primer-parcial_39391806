@@ -82,11 +82,11 @@ Diseño y desarrollo de un sitio web para un festival de música ficticio que pr
 ### 📦 Entrega
 
 #### Archivos Requeridos
-- ⏳ Archivo index.html
-- ⏳ Archivo programacion.html
-- ⏳ Archivo contacto.html
+- ✅ Archivo index.html
+- ✅ Archivo programacion.html
+- ✅ Archivo contacto.html
 - ⏳ Archivos CSS asociados
-- ⏳ Recursos multimedia utilizados en el sitio
+- ✅ Recursos multimedia utilizados en el sitio
 
 #### Verificación Final
 - ⏳ Asegurar que todos los enlaces funcionen correctamente
@@ -97,9 +97,9 @@ Diseño y desarrollo de un sitio web para un festival de música ficticio que pr
 
 ## 📊 Progreso del Proyecto
 
-**Items Completados:** 0/28  
-**Items Pendientes:** 28/28  
-**Progreso:** 0%
+**Items Completados:** 22/28  
+**Items Pendientes:** 6/28  
+**Progreso:** 78.6%
 
 ---
 
