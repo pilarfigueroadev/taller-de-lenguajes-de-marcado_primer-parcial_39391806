@@ -242,6 +242,63 @@ body {
     font-weight: 500;
 }
 
+.banner__wrapper {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 300px;
+    background-color: var(--background-color--secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.banner__header {
+    margin-bottom: 1rem;
+}
+
+.banner__header .banner__title {
+    font-size: var(--title-font-hero);
+}
+
+.banner__content p {
+    font-size: var(--title-font-03);
+}
+
+/* === SCHEDULE === */
+
+.table__wrapper {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.table__wrapper table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 600px;
+}
+
+.table__wrapper th {
+    background-color: var(--background-color--secondary);
+    font-size: var(--title-font-03);
+}
+
+.table__wrapper th, .table__wrapper td {
+    border: 1px solid var(--border-color);
+    padding: 0.75rem 1rem;
+    text-align: left;
+}
+
+.table__wrapper tbody tr:hover {
+    background-color: var(--border-color);
+    transition: background-color 0.3s ease;
+}
+
+
+
 /* === MAPS === */
 
 .section__content--maps {

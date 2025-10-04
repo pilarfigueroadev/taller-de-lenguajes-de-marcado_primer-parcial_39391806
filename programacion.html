@@ -12,15 +12,15 @@
     <header class="header">
         <nav class="header__wrapper">
             <div class="logo">
-                <svg class="h-6 w-6 text-primary" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M4 4H17.3334V17.3334H30.6666V30.6666H44V44H4V4Z" fill="currentColor"></path>
+                <svg fill="#607afb" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 4H17.3334V17.3334H30.6666V30.6666H44V44H4V4Z" fill="#607afb"></path>
                 </svg>
                 <h1>Music Fest</h1>
             </div>
-            <ul class="header__menu">
-                <li><a class="header__link" href="index.html">Inicio</a></li>
-                <li><a class="header__link header__link--active" href="programacion.html">Lineup</a></li>
-                <li><a class="header__link" href="contacto.html">Contacto</a></li>
+            <ul class="header__menu list__wrapper">
+                <li class="list__item"><a class="header__link" href="index.html">Inicio</a></li>
+                <li class="list__item"><a class="header__link header__link--active" href="programacion.html">Lineup</a></li>
+                <li class="list__item"><a class="header__link" href="contacto.html">Contacto</a></li>
             </ul>
             <!-- If I have enough time, I will create the toggle menu aside for mobile
             <div class="menu-icon">
@@ -29,11 +29,11 @@
         </nav>
     </header>
     <main class="main">
-        <section class="section__wrapper">
-            <div class="section__header">
-                <h2 class="section__title">Lineup</h2>
+        <section class="banner__wrapper">
+            <div class="banner__header">
+                <h2 class="banner__title">Lineup</h2>
             </div>
-            <div class="section__content">
+            <div class="banner__content">
                 <p>Aquí encontrarás la programación completa del festival.</p>
             </div>
         </section>
@@ -204,7 +204,7 @@
         <!-- Developed by Pilar Figueroa -->
         <div class="footer__content">
             <span>&copy; 2025 Music Fest. Todos los derechos reservados.</span>
-            <ul class="footer__social">
+            <ul class="list__wrapper footer__social">
                 <li>
                     <a href="https://www.youtube.com/">
                         <img src="./images/youtube.png" alt="YouTube">

@@ -34,7 +34,7 @@ Diseño y desarrollo de un sitio web para un festival de música ficticio que pr
 - ✅ Mapa interactivo (iframe de Google Maps) indicando la ubicación del festival
 
 #### Estilos
-- ⏳ Estilos CSS que transmitan una estética moderna, juvenil y vibrante
+- ✅ Estilos CSS que transmitan una estética moderna, juvenil y vibrante
 
 ---
 
