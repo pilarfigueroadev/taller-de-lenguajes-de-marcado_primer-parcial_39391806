@@ -89,17 +89,17 @@ Diseño y desarrollo de un sitio web para un festival de música ficticio que pr
 - ✅ Recursos multimedia utilizados en el sitio
 
 #### Verificación Final
-- ⏳ Asegurar que todos los enlaces funcionen correctamente
+- ✅ Asegurar que todos los enlaces funcionen correctamente
 - ✅ Verificar que todos los recursos multimedia funcionen correctamente
-- ⏳ Revisión completa antes de entregar
+- ✅ Revisión completa antes de entregar
 
 ---
 
 ## 📊 Progreso del Proyecto
 
-**Items Completados:** 22/28  
-**Items Pendientes:** 6/28  
-**Progreso:** 78.6%
+**Items Completados:** 28/28  
+**Items Pendientes:** 0/28  
+**Progreso:** 100% ✅
 
 ---
 
@@ -124,4 +124,6 @@ proyecto-festival/
 
 ## 🎯 Notas del Desarrollo
 
-*Espacio para agregar notas, decisiones de diseño y observaciones durante el desarrollo del proyecto.*
+Respecto a ciertos elementos multimedia como el video agregado localmente, asi como el audio, son elementos que no añadiria jamas a un proyecto, dado que trae peso extra al mismo. El motivo de agregarlos ha sido unicamente respetar las consignas del parcial.
+
+Dado que no se evalua que sea responsive, no se ha hecho dicho desarrollo, pero se podria hacer a futuro dado que tengo una estructura HTML solida y estilos escalables y ordenados.
