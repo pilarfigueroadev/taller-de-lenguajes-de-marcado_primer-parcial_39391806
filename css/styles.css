@@ -1,0 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+    --background-color: #0f1323;
+    --background-color--opacity: #0f1323cc;
+    --background-color--secondary: #607afb;
+    --text-color: #ffffff;
+    --button--primary: #607afb;
+}
