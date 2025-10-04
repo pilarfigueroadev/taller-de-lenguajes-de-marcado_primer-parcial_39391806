@@ -41,16 +41,16 @@ Diseño y desarrollo de un sitio web para un festival de música ficticio que pr
 ### 📅 Página 2: programacion.html
 
 #### Contenido y Estructura
-- ⏳ Estructura HTML completa
-- ⏳ Al menos un div y un span
-- ⏳ Descripción de artistas: género musical, país de origen, horario, escenario
-- ⏳ Tabla con información de la programación: día, hora, artista, escenario
-- ⏳ Listas ordenadas y no ordenadas (ej: qué incluye la entrada, objetos permitidos, recomendaciones)
-- ⏳ Menú de navegación hacia index.html y contacto.html
-- ⏳ Pie de página con datos del alumno
+- ✅ Estructura HTML completa
+- ✅ Al menos un div y un span
+- ✅ Descripción de artistas: género musical, país de origen, horario, escenario
+- ✅ Tabla con información de la programación: día, hora, artista, escenario
+- ✅ Listas ordenadas y no ordenadas (ej: qué incluye la entrada, objetos permitidos, recomendaciones)
+- ✅ Menú de navegación hacia index.html y contacto.html
+- ✅ Pie de página con datos del alumno
 
 #### Elementos Multimedia
-- ⏳ Imágenes representativas de cada banda o solista (con texto alternativo)
+- ✅ Imágenes representativas de cada banda o solista (con texto alternativo)
 
 #### Estilos
 - ⏳ CSS personalizado para organizar claramente la información y mejorar la presentación visual
