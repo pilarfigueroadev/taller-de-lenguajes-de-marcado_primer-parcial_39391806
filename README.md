@@ -19,19 +19,19 @@ Diseño y desarrollo de un sitio web para un festival de música ficticio que pr
 ### 🏠 Página 1: index.html
 
 #### Contenido y Estructura
-- ⏳ Presentación del festival: nombre, breve historia, estilos musicales presentes
-- ⏳ Estructura HTML5 completa con etiquetas semánticas (header, nav, main, section, article, aside, footer)
-- ⏳ Menú de navegación que permita acceder a las otras dos páginas (enlaces en la misma pestaña)
-- ⏳ Títulos y párrafos descriptivos
-- ⏳ Pie de página con el nombre del alumno autor
+- ✅ Presentación del festival: nombre, breve historia, estilos musicales presentes
+- ✅ Estructura HTML5 completa con etiquetas semánticas (header, nav, main, section, article, aside, footer)
+- ✅ Menú de navegación que permita acceder a las otras dos páginas (enlaces en la misma pestaña)
+- ✅ Títulos y párrafos descriptivos
+- ✅ Pie de página con el nombre del alumno autor
 
 #### Elementos Multimedia
-- ⏳ Imágenes de artistas o conciertos (con texto alternativo)
-- ⏳ Imágenes con links a videos de YouTube de los artistas (abriendo en nueva pestaña)
-- ⏳ Al menos 1 video local con controles visibles (ej: spot promocional)
-- ⏳ Al menos 1 video embebido desde YouTube
-- ⏳ Al menos 1 audio con controles (ej: fragmento de canciones o entrevista)
-- ⏳ Mapa interactivo (iframe de Google Maps) indicando la ubicación del festival
+- ✅ Imágenes de artistas o conciertos (con texto alternativo)
+- ✅ Imágenes con links a videos de YouTube de los artistas (abriendo en nueva pestaña)
+- ✅ Al menos 1 video local con controles visibles (ej: spot promocional)
+- ✅ Al menos 1 video embebido desde YouTube
+- ✅ Al menos 1 audio con controles (ej: fragmento de canciones o entrevista)
+- ✅ Mapa interactivo (iframe de Google Maps) indicando la ubicación del festival
 
 #### Estilos
 - ⏳ Estilos CSS que transmitan una estética moderna, juvenil y vibrante
