@@ -31,6 +31,7 @@
         <section class="section__wrapper">
             <div class="section__header">
                 <h2 class="section__title">Contacto</h2>
+                <p>Horario de boletería: Lunes a Viernes de 10:00 a 18:00</p>
             </div>
             <div class="section__content">
                 <form class="form" action="#" method="post">
@@ -40,8 +41,45 @@
                     <label for="email">Correo Electrónico:</label>
                     <input type="email" id="email" name="email" required>
 
-                    <label for="message">Mensaje:</label>
-                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <label for="artist">Artista Favorito:</label>
+                    <input type="text" id="artist" name="artist" required>
+
+                    <label for="attendance-date">Fecha de Asistencia:</label>
+                    <input type="date" id="attendance-date" name="attendance-date" required>
+
+                    <fieldset>
+                        <legend>Tipo de Entrada:</legend>
+                        <input type="radio" id="general" name="ticket-type" value="general" required>
+                        <label for="general">General</label>
+
+                        <input type="radio" id="vip" name="ticket-type" value="vip">
+                        <label for="vip">Santander Invitacional</label>
+                        <span>Mas detalles sobre Santander Invitacional en <a href="https://www.santander.com.ar/personas/beneficios#/results?category-code=ESP&brandId=222">santander.com.ar</a>.</span>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Intereses:</legend>
+                        <input type="checkbox" id="camping" name="interests" value="camping">
+                        <label for="camping">Camping</label>
+
+                        <input type="checkbox" id="merchandising" name="interests" value="merchandising">
+                        <label for="merchandising">Merchandising</label>
+
+                        <input type="checkbox" id="meet-greet" name="interests" value="meet-greet">
+                        <label for="meet-greet">Meet & Greet</label>
+                    </fieldset>
+
+                    <label for="music-genre">Género Musical Favorito:</label>
+                    <input list="genres" id="music-genre" name="music-genre">
+                    <datalist id="genres">
+                        <option value="Rock">
+                        <option value="Pop">
+                        <option value="Electrónica">
+                        <option value="Indie">
+                    </datalist>
+
+                    <label for="comments">Comentarios:</label>
+                    <textarea id="comments" name="comments" rows="4" placeholder="Escribe aquí tus comentarios o preguntas..."></textarea>
 
                     <button type="submit" class="button button--primary">Enviar</button>
                 </form>
@@ -68,5 +106,28 @@
             </div>
         </section>
     </main>
+    <footer class="footer">
+        <!-- Developed by Pilar Figueroa -->
+        <div class="footer__content">
+            <span>&copy; 2025 Music Fest. Todos los derechos reservados.</span>
+            <ul class="footer__social">
+                <li>
+                    <a href="https://www.youtube.com/">
+                        <img src="./images/youtube.png" alt="YouTube">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com/">
+                        <img src="./images/twitter.png" alt="Twitter">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/">
+                        <img src="./images/instagram.png" alt="Instagram">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
