@@ -269,6 +269,29 @@ body {
     font-size: var(--title-font-03);
 }
 
+/* === TICKETS === */
+
+.tickets .list__wrapper {
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: self-start;
+}
+
+.tickets .list__wrapper .list__item {
+    background-color: var(--background-color--opacity);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+}
+
+.tickets .list__wrapper .list__item:hover {
+    background-color: var(--background-color--secondary);
+    transition: all 0.3s ease;
+}
+
 /* === SCHEDULE === */
 
 .table__wrapper {
