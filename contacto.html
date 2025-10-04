@@ -50,24 +50,34 @@
 
                     <fieldset>
                         <legend>Tipo de Entrada:</legend>
-                        <input type="radio" id="general" name="ticket-type" value="general" required>
-                        <label for="general">General</label>
+                        <div class="form-group">
+                            <input type="radio" id="general" name="ticket-type" value="general" required>
+                            <label for="general">General</label>
+                        </div>
 
-                        <input type="radio" id="vip" name="ticket-type" value="vip">
-                        <label for="vip">Santander Invitacional</label>
-                        <span>Mas detalles sobre Santander Invitacional en <a href="https://www.santander.com.ar/personas/beneficios#/results?category-code=ESP&brandId=222">santander.com.ar</a>.</span>
+                        <div class="form-group">
+                            <input type="radio" id="vip" name="ticket-type" value="vip">
+                            <label for="vip">Santander Invitacional</label>
+                            <span>(Mas detalles sobre Santander Invitacional en <a href="https://www.santander.com.ar/personas/beneficios#/results?category-code=ESP&brandId=222">santander.com.ar</a>).</span>
+                        </div>
                     </fieldset>
 
                     <fieldset>
                         <legend>Intereses:</legend>
-                        <input type="checkbox" id="camping" name="interests" value="camping">
-                        <label for="camping">Camping</label>
+                        <div class="form-group">
+                            <input type="checkbox" id="camping" name="interests" value="camping">
+                            <label for="camping">Camping</label>
+                        </div>
 
-                        <input type="checkbox" id="merchandising" name="interests" value="merchandising">
-                        <label for="merchandising">Merchandising</label>
+                        <div class="form-group">
+                            <input type="checkbox" id="merchandising" name="interests" value="merchandising">
+                            <label for="merchandising">Merchandising</label>
+                        </div>
 
-                        <input type="checkbox" id="meet-greet" name="interests" value="meet-greet">
-                        <label for="meet-greet">Meet & Greet</label>
+                        <div class="form-group">
+                            <input type="checkbox" id="meet-greet" name="interests" value="meet-greet">
+                            <label for="meet-greet">Meet & Greet</label>
+                        </div>
                     </fieldset>
 
                     <label for="music-genre">Género Musical Favorito:</label>
@@ -86,11 +96,11 @@
                 </form>
             </div>
         </section>
-        <section class="section__wrapper">
+        <section class="section__wrapper section__content--contact">
             <div class="section__header">
                 <h2 class="section__title">Otras opciones de contacto</h2>
             </div>
-            <div class="section__contect">
+            <div class="section__content">
                 <ul class="list__wrapper">
                     <li class="list__item">
                         <span class="material-symbols-outlined">phone_callback</span>

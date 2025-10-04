@@ -5,6 +5,7 @@
     --text-color: #ffffff;
     --border-color: rgba(222, 222, 222, 0.2);
     --font-size: 1rem;
+    --font-details: 0.8rem;
     --title-font-hero: 3rem;
     --title-font-01: 2rem;
     --title-font-02: 1.5rem;
@@ -341,6 +342,75 @@ body {
 
 .section__content--audio audio {
     width: 100%;
+}
+
+/* === FORM === */
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form label {
+    font-weight: 500;
+}
+
+.form input,
+.form select,
+.form textarea {
+    padding: 0.5rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+}
+
+.form button {
+    align-self: flex-start;
+}
+.form button:hover {
+    background-color: var(--button--primary--hover);
+}
+
+.form fieldset {
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    padding: 1rem;
+}
+
+.form fieldset input {
+    margin-right: 0.5rem;
+}
+
+.form fieldset span {
+    font-size: var(--font-details);
+    color: #cccccc;
+}
+
+.form fieldset span a {
+    color: var(--background-color--secondary);
+}
+
+/* === CONTACT === */
+
+.section__content--contact .section__title {
+    margin-bottom: 1rem;
+}
+
+.section__content--contact .list__wrapper {
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.section__content--contact .list__item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.section__content--contact .list__item span {
+    font-size: 1.5rem;
+    color: var(--background-color--secondary);
+    flex-shrink: 0;
 }
 
 /* === FOOTER === */

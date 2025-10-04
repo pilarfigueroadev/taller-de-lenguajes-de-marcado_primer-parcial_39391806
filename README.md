@@ -53,7 +53,7 @@ Diseño y desarrollo de un sitio web para un festival de música ficticio que pr
 - ✅ Imágenes representativas de cada banda o solista (con texto alternativo)
 
 #### Estilos
-- ⏳ CSS personalizado para organizar claramente la información y mejorar la presentación visual
+- ✅ CSS personalizado para organizar claramente la información y mejorar la presentación visual
 
 ---
 
@@ -75,7 +75,7 @@ Diseño y desarrollo de un sitio web para un festival de música ficticio que pr
 - ✅ 1 botón para enviar
 
 #### Estilos
-- ⏳ CSS que facilite la lectura y el uso del formulario, asegurando accesibilidad
+- ✅ CSS que facilite la lectura y el uso del formulario, asegurando accesibilidad
 
 ---
 
@@ -85,12 +85,12 @@ Diseño y desarrollo de un sitio web para un festival de música ficticio que pr
 - ✅ Archivo index.html
 - ✅ Archivo programacion.html
 - ✅ Archivo contacto.html
-- ⏳ Archivos CSS asociados
+- ✅ Archivos CSS asociados
 - ✅ Recursos multimedia utilizados en el sitio
 
 #### Verificación Final
 - ⏳ Asegurar que todos los enlaces funcionen correctamente
-- ⏳ Verificar que todos los recursos multimedia funcionen correctamente
+- ✅ Verificar que todos los recursos multimedia funcionen correctamente
 - ⏳ Revisión completa antes de entregar
 
 ---
@@ -113,12 +113,11 @@ proyecto-festival/
 ├── css/
 │   └── styles.css
 ├── images/
-│   ├── artistas/
-│   └── festival/
+│   └── images.jpg
 ├── video/
 │   └── ejemplo.mp4
 └── audio/
-    └── ejemplo/
+    └── ejemplo.mp3
 ```
 
 ---
