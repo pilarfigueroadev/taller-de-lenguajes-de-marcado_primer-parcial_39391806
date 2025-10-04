@@ -40,6 +40,7 @@ body {
     position: fixed;
     display: flex;
     justify-content: center;
+    z-index: 1000;
 }
 
 .header__wrapper {
@@ -165,4 +166,74 @@ body {
     font-size: var(--title-font-03);
     max-width: 600px;
     padding: 20px 0;
+}
+
+.section__content {
+    margin-top: 2rem;
+}
+
+.section__content--cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+/* For mobile I should change this behavior since hover doesn't work on touch devices. The card content should be visible at all times for tablet and mobile */
+
+.section__content--cards .card {
+    background-color: var(--background-color--opacity);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.section__content--cards .card:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.section__content--cards .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.section__content--cards .card:hover img {
+    transform: scale(1.1);
+}
+
+.section__content--cards .card .card__content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+    padding: 2rem 1rem 1rem;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+}
+
+.section__content--cards .card:hover .card__content {
+    transform: translateY(0);
+}
+
+.section__content--cards .card h3,
+.section__content--cards .card span {
+    margin: 0;
+    padding: 0;
+}
+
+.section__content--cards .card h3 {
+    font-size: var(--title-font-02);
+    margin-bottom: 0.5rem;
+}
+
+.section__content--cards .card span {
+    color: var(--background-color--secondary);
+    font-weight: 500;
 }
