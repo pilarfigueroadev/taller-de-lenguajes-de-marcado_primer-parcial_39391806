@@ -1,14 +1,94 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Space Grotesk', Tahoma, Geneva, Verdana, sans-serif;
-}
-
 :root {
     --background-color: #0f1323;
     --background-color--opacity: #0f1323cc;
     --background-color--secondary: #607afb;
     --text-color: #ffffff;
+    --border-color: rgba(222, 222, 222, 0.2);
+    --font-size: 1rem;
+    --title-font-01: 2rem;
+    --title-font-02: 1.5rem;
+    --title-font-03: 1.2rem;
+    --font-family: 'Space Grotesk', Tahoma, Geneva, Verdana, sans-serif;
     --button--primary: #607afb;
 }
+
+/* Normalize */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+/* === HEADER === */
+
+.header {
+    width: 100%;
+    background-color: var(--background-color--opacity);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+}
+
+.header__wrapper {
+    width: 100%;
+    max-width: 1280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.header__wrapper .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    width: auto;
+}
+
+.header__wrapper .logo svg {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+}
+
+.header__wrapper .logo h1 {
+    font-size: var(--title-font-03);
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.header__wrapper .header__menu {
+    display: flex;
+    gap: 1.5rem;
+    width: auto;
+}
+
+.list__wrapper {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.list__wrapper .list__item .header__link {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+.header__wrapper .list__item .header__link--active {
+    color: var(--background-color--secondary);
+}
+
+.list__wrapper .list__item .header__link:hover {
+    color: var(--background-color--secondary);
+    transition: color 0.3s ease;
+}
+
