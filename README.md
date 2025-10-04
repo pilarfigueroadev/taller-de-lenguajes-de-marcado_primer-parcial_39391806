@@ -60,19 +60,19 @@ Diseño y desarrollo de un sitio web para un festival de música ficticio que pr
 ### 📞 Página 3: contacto.html
 
 #### Contenido y Estructura
-- ⏳ Estructura HTML completa
-- ⏳ Información de contacto: dirección, teléfono, horarios de boletería
-- ⏳ Enlaces a redes sociales
-- ⏳ Menú de navegación coherente con las otras páginas
-- ⏳ Pie de página con los datos del autor
+- ✅ Estructura HTML completa
+- ✅ Información de contacto: dirección, teléfono, horarios de boletería
+- ✅ Enlaces a redes sociales
+- ✅ Menú de navegación coherente con las otras páginas
+- ✅ Pie de página con los datos del autor
 
 #### Formulario
-- ⏳ 4 campos de texto (nombre, correo electrónico, artista favorito, fecha de asistencia)
-- ⏳ 3 radios (tipo de entrada: general, VIP, campo delantero)
-- ⏳ 3 checkboxes (intereses: camping, merchandising, meet & greet)
-- ⏳ 1 datalist para seleccionar género musical favorito
-- ⏳ 1 textarea para comentarios
-- ⏳ 1 botón para enviar
+- ✅ 4 campos de texto (nombre, correo electrónico, artista favorito, fecha de asistencia)
+- ✅ 3 radios (tipo de entrada: general, VIP, campo delantero)
+- ✅ 3 checkboxes (intereses: camping, merchandising, meet & greet)
+- ✅ 1 datalist para seleccionar género musical favorito
+- ✅ 1 textarea para comentarios
+- ✅ 1 botón para enviar
 
 #### Estilos
 - ⏳ CSS que facilite la lectura y el uso del formulario, asegurando accesibilidad
